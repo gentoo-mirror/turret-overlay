@@ -40,6 +40,8 @@ RDEPEND="
 		${DEPEND}
 		virtual/wine"
 
+PATCHES="${FILESDIR}/no-build-isolation.patch"
+
 src_unpack() {
 	default
 	mv "${WORKDIR}/grapejuice-v${PV}" "${S}" || die

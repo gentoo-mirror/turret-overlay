@@ -93,6 +93,7 @@ COMMON_DEPEND="
 
 RDEPEND="${COMMON_DEPEND}
 	app-emulation/wine-desktop-common
+	<app-eselect/eselect-wine-2
 	>app-eselect/eselect-wine-0.3
 	!app-emulation/wine:0
 	dos? ( >=games-emulation/dosbox-0.74_p20160629 )

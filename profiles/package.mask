@@ -1,4 +1,0 @@
-# turret. <turret@turret.cyou> (2023-05-31)
-# >7.7.2 fail to build and i'm too lazy to
-# fix them right now
->games-util/grapejuice-7.7.2

@@ -14,37 +14,43 @@ SLOT="0"
 KEYWORDS="-* ~amd64"
 RESTRICT="mirror"
 
-DEPEND="sys-devel/gettext
-		dev-vcs/git
+DEPEND="dev-libs/gobject-introspection
 		dev-python/pip
+		dev-util/desktop-file-utils
+		dev-util/gtk-update-icon-cache
+		dev-vcs/git
+		sys-devel/gettext
+		x11-apps/mesa-progs
 		x11-libs/cairo
 		x11-libs/gtk+
-		dev-libs/gobject-introspection
-		dev-util/desktop-file-utils
-		x11-misc/xdg-utils
-		x11-misc/xdg-user-dirs
-		dev-util/gtk-update-icon-cache
 		x11-misc/shared-mime-info
-		x11-apps/mesa-progs
+		x11-misc/xdg-user-dirs
+		x11-misc/xdg-utils
 
-		dev-python/psutil
-		dev-python/pygobject
-		dev-python/packaging
-		dev-python/wheel
-		dev-python/setuptools
-		dev-python/requests
-		dev-python/unidecode
 		dev-python/click
-		dev-python/pydantic"
+		dev-python/packaging
+		dev-python/psutil
+		dev-python/pydantic
+		dev-python/pygobject
+		dev-python/requests
+		dev-python/setuptools
+		dev-python/unidecode
+		dev-python/wheel"
+
 RDEPEND="
 		${DEPEND}
 		virtual/wine"
 
-PATCHES="${FILESDIR}/no-build-isolation.patch"
-
 src_unpack() {
 	default
 	mv "${WORKDIR}/grapejuice-v${PV}" "${S}" || die
+}
+
+src_prepare() {
+	default
+	sed -i \
+		-e 's/"--target"/"--no-build-isolation",\n\t\t"--target"/' \
+		src/grapejuice_packaging/builders/linux_package_builder.py || die
 }
 
 src_compile() {

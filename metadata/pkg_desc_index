@@ -5,4 +5,5 @@ app-vim/vim-ledger 1.2.0 9999: vim plugin: app-office/ledger file format syntax
 games-util/grapejuice 7.8.3: A Wine+Roblox management application
 gui-wm/cage 0.1.4 9999: A Wayland kiosk
 gui-wm/dwl 0.4-r1 9999 9999-r1: dwm for Wayland
+media-gfx/donut 2: spinning X11 donut
 sys-kernel/gentoo-sources 6.1.19: Full sources including the Gentoo patchset for the 6.1 kernel tree

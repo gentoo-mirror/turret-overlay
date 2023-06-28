@@ -9,7 +9,7 @@ DESCRIPTION="Render markdown on the CLI, with pizzazz!"
 HOMEPAGE="https://github.com/charmbracelet/glow"
 SRC_URI="
 	https://github.com/charmbracelet/glow/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
-	https://github.com/telans/distfiles/raw/main/${CATEGORY}/${PN}/${P}-deps.tar.xz
+	https://cdn.turret.cyou/1120b9f49860e9a61ae35291b3c3e909c39b3583/glow-1.5.1-deps.tar.xz
 "
 
 LICENSE="Apache-2.0 BSD-2 BSD MIT MPL-2.0"

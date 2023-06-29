@@ -6,12 +6,12 @@ EAPI=8
 inherit savedconfig toolchain-funcs
 
 DESCRIPTION="spinning X11 donut"
-HOMEPAGE="https://git.turret.cyou/donut.git/about/"
+HOMEPAGE="https://git.turret.cyou/progs/donut.git/about/"
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="git://git.turret.cyou/donut.git"
+	EGIT_REPO_URI="git://git.turret.cyou/progs/donut.git"
 else
-	SRC_URI="https://git.turret.cyou/donut.git/snapshot/${P}.tar.bz2"
+	SRC_URI="https://git.turret.cyou/progs/donut.git/snapshot/${P}.tar.bz2"
 	KEYWORDS="~amd64"
 fi
 

@@ -25,6 +25,8 @@ RESTRICT="mirror"
 DEPEND="${PYTHON_DEPS}
 		dev-python/pip
 		dev-python/poetry-core
+		dev-python/anchor-kr
+		dev-python/anitopy
 		dev-python/click
 		dev-python/cssselect
 		dev-python/httpx

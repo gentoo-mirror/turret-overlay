@@ -29,7 +29,7 @@ DEPEND="${PYTHON_DEPS}
 		dev-python/cssselect
 		dev-python/httpx
 		dev-python/tqdm
-		dev-python/pycryptodome
+		dev-python/pycryptodomex
 		dev-python/regex
 		dev-python/yarl
 		dev-python/pyyaml
@@ -41,5 +41,5 @@ BDEPEND="${DEPEND}"
 
 src_unpack() {
 	default
-	mv "${PN}" "${P}"
+	mv "${PN}" "${P}" || die
 }

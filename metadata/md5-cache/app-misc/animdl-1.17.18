@@ -1,6 +1,6 @@
-BDEPEND=python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 ) dev-python/pip dev-python/poetry-core dev-python/click dev-python/cssselect dev-python/httpx dev-python/tqdm dev-python/pycryptodomex dev-python/regex dev-python/yarl dev-python/pyyaml dev-python/packaging dev-python/pkginfo dev-python/rich python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 ) >=dev-python/gpep517-13[python_targets_python3_11(-)?] >=dev-python/poetry-core-1.5.2[python_targets_python3_11(-)?]
+BDEPEND=python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 ) dev-python/pip dev-python/poetry-core dev-python/anchor-kr dev-python/anitopy dev-python/click dev-python/cssselect dev-python/httpx dev-python/tqdm dev-python/pycryptodomex dev-python/regex dev-python/yarl dev-python/pyyaml dev-python/packaging dev-python/pkginfo dev-python/rich python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 ) >=dev-python/gpep517-13[python_targets_python3_11(-)?] >=dev-python/poetry-core-1.5.2[python_targets_python3_11(-)?]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 ) dev-python/pip dev-python/poetry-core dev-python/click dev-python/cssselect dev-python/httpx dev-python/tqdm dev-python/pycryptodomex dev-python/regex dev-python/yarl dev-python/pyyaml dev-python/packaging dev-python/pkginfo dev-python/rich
+DEPEND=python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 ) dev-python/pip dev-python/poetry-core dev-python/anchor-kr dev-python/anitopy dev-python/click dev-python/cssselect dev-python/httpx dev-python/tqdm dev-python/pycryptodomex dev-python/regex dev-python/yarl dev-python/pyyaml dev-python/packaging dev-python/pkginfo dev-python/rich
 DESCRIPTION=A highly efficient, powerful and fast anime scraper.
 EAPI=8
 HOMEPAGE=https://github.com/justfoolingaround/animdl
@@ -8,10 +8,10 @@ INHERIT=distutils-r1
 IUSE=python_targets_python3_11
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 ) dev-python/pip dev-python/poetry-core dev-python/click dev-python/cssselect dev-python/httpx dev-python/tqdm dev-python/pycryptodomex dev-python/regex dev-python/yarl dev-python/pyyaml dev-python/packaging dev-python/pkginfo dev-python/rich python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 )
+RDEPEND=python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 ) dev-python/pip dev-python/poetry-core dev-python/anchor-kr dev-python/anitopy dev-python/click dev-python/cssselect dev-python/httpx dev-python/tqdm dev-python/pycryptodomex dev-python/regex dev-python/yarl dev-python/pyyaml dev-python/packaging dev-python/pkginfo dev-python/rich python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 )
 REQUIRED_USE=|| ( python_targets_python3_11 )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://cdn.turret.cyou/3517d665858003645707f4fe0013e944a1b35501/animdl-1.7.18.tar.xz
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	python-utils-r1	a34d5f83235297b76d71eaf8deb53768	python-r1	3c6cd0f418ba702c186a9865b85e704d	distutils-r1	2d32e797ee29a8ffdd452f4a85860666
-_md5_=67163bb35e5e714faa304072cd8dcc1c
+_md5_=6ec62e4cc2932d2af52125559650ebf4

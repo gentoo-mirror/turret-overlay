@@ -3,4 +3,3 @@
 # * generated automatically using pmaint *
 
 gui-wm/cage:X - Enable support for X11 applications (XWayland)
-sys-kernel/gentoo-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".

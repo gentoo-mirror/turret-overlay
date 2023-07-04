@@ -5,10 +5,10 @@ EAPI=8
 HOMEPAGE=https://github.com/ledger/vim-ledger
 INHERIT=vim-plugin
 KEYWORDS=~amd64 ~x86
-LICENSE=vim
+LICENSE=GPL-2
 RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ledger/vim-ledger/archive/refs/tags/v1.2.0.tar.gz -> vim-ledger-1.2.0.tar.gz
 _eclasses_=vim-doc	f088862726f2bc672c57b1063b81ec52	vim-plugin	92ea4186891b666b0970fa1d713d64fa
-_md5_=c4aa8b6f3a8d4ee38988eadfcb2d986b
+_md5_=b96d31ffd9b44d0b824136e80561c200

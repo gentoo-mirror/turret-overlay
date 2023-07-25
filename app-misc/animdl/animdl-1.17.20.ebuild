@@ -14,7 +14,7 @@ if [[ "${PV}" == *9999* ]]; then
 	EGIT_REPO_URI="https://github.com/justfoolingaround/animdl.git"
 	inherit git-r3
 else
-	SRC_URI="https://cdn.turret.cyou/3517d665858003645707f4fe0013e944a1b35501/animdl-1.7.18.tar.xz"
+	SRC_URI="https://cdn.turret.cyou/c365419da26d2dcd371397282ae64027e3fc5f3c/animdl-1.17.20.tar.xz"
 	KEYWORDS="~amd64"
 fi
 

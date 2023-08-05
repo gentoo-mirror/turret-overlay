@@ -26,8 +26,3 @@ DEPEND="${PYTHON_DEPS}
 		dev-python/poetry-core"
 RDEPEND="${DEPEND}"
 BDEPEND="${DEPEND}"
-
-src_unpack() {
-	default
-	mv "${WORKDIR}/${P}/src/core/"* "${S}" || die
-}

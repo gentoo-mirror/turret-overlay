@@ -12,5 +12,5 @@ RDEPEND=dev-libs/libinput:= dev-libs/wayland gui-libs/wlroots:0/16[X(-)?] x11-li
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/djpohly/dwl/archive/v0.4.tar.gz -> dwl-0.4.tar.gz
-_eclasses_=toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	portability	a74d533f258f1f435be71312558c12f9	savedconfig	8b5f9d995a970e49cd427c55d5840285
+_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	portability	a74d533f258f1f435be71312558c12f9	savedconfig	8b5f9d995a970e49cd427c55d5840285
 _md5_=0b84adb8f4d9419d4b62c8c924bc1757

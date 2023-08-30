@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=poetry
-PYTHON_COMPAT=( python3_11 )
+PYTHON_COMPAT=( python3_11 python3_12 )
 inherit distutils-r1
 
 DESCRIPTION="An easy-to-use and extensible Python CLI Minecraft launcher with compatability!"

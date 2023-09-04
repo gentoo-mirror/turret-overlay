@@ -4,5 +4,5 @@ dev-python/anchor-kr 0.1.3-r1: Me, you and anchor make your scraper complete.
 dev-python/anitopy 2.1.1-r1: Python library for parsing anime video filenames
 dev-python/pycryptodomex 3.18.0x-r1: Python package of low-level cryptographic primitives
 games-action/portablemc 4.0.2-r1: An easy-to-use and extensible Python CLI Minecraft launcher with compatability!
-games-util/grapejuice 7.14.4 9999: A Wine+Roblox management application
+games-util/grapejuice 7.19.8 9999: A Wine+Roblox management application
 x11-misc/donut 4: spinning X11 donut

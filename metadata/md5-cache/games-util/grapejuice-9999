@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-libs/gobject-introspection dev-python/pip dev-util/desktop-file-utils dev-util/gtk-update-icon-cache dev-vcs/git sys-devel/gettext x11-apps/mesa-progs x11-libs/cairo x11-libs/gtk+ x11-misc/shared-mime-info x11-misc/xdg-user-dirs x11-misc/xdg-utils dev-python/click dev-python/packaging dev-python/psutil dev-python/pydantic dev-python/pygobject dev-python/requests dev-python/setuptools dev-python/unidecode dev-python/wheel virtual/wine
 RESTRICT=mirror
 SLOT=0
-_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54	git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=781326fbb83761183be06b42458a0e4e

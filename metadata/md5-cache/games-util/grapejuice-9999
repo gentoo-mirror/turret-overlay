@@ -1,15 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst postrm preinst prepare unpack
-DEPEND=dev-libs/gobject-introspection dev-python/pip dev-util/desktop-file-utils dev-util/gtk-update-icon-cache dev-vcs/git sys-devel/gettext x11-apps/mesa-progs x11-libs/cairo x11-libs/gtk+ x11-misc/shared-mime-info x11-misc/xdg-user-dirs x11-misc/xdg-utils dev-python/click dev-python/packaging dev-python/psutil dev-python/pydantic dev-python/pygobject dev-python/requests dev-python/setuptools dev-python/unidecode dev-python/wheel
+DEPEND=dev-libs/gobject-introspection dev-python/click dev-python/packaging dev-python/pip dev-python/psutil dev-python/pydantic dev-python/pygobject dev-python/requests dev-python/setuptools dev-python/unidecode dev-python/wheel dev-util/desktop-file-utils dev-util/gtk-update-icon-cache dev-vcs/git sys-devel/gettext x11-apps/mesa-progs x11-libs/cairo x11-libs/gtk+ x11-misc/shared-mime-info x11-misc/xdg-user-dirs x11-misc/xdg-utils
 DESCRIPTION=A Wine+Roblox management application
 EAPI=8
-HOMEPAGE=https://gitlab.com/brinkervii/grapejuice.git
+HOMEPAGE=https://gitlab.com/brinkervii/grapejuice
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
-INHERIT=xdg optfeature git-r3
+INHERIT=xdg git-r3
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-libs/gobject-introspection dev-python/pip dev-util/desktop-file-utils dev-util/gtk-update-icon-cache dev-vcs/git sys-devel/gettext x11-apps/mesa-progs x11-libs/cairo x11-libs/gtk+ x11-misc/shared-mime-info x11-misc/xdg-user-dirs x11-misc/xdg-utils dev-python/click dev-python/packaging dev-python/psutil dev-python/pydantic dev-python/pygobject dev-python/requests dev-python/setuptools dev-python/unidecode dev-python/wheel virtual/wine
-RESTRICT=mirror
+RDEPEND=dev-libs/gobject-introspection dev-python/click dev-python/packaging dev-python/pip dev-python/psutil dev-python/pydantic dev-python/pygobject dev-python/requests dev-python/setuptools dev-python/unidecode dev-python/wheel dev-util/desktop-file-utils dev-util/gtk-update-icon-cache dev-vcs/git sys-devel/gettext x11-apps/mesa-progs x11-libs/cairo x11-libs/gtk+ x11-misc/shared-mime-info x11-misc/xdg-user-dirs x11-misc/xdg-utils virtual/wine
 SLOT=0
-_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54	git-r3	5133e393e8717a3a093660f990801dc1
-_md5_=781326fbb83761183be06b42458a0e4e
+_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e	git-r3	5133e393e8717a3a093660f990801dc1
+_md5_=d535c1f4c79f11420ada18023d579326

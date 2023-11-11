@@ -3,10 +3,10 @@
 
 EAPI=8
 
-inherit xdg optfeature
+inherit xdg
 
 DESCRIPTION="A Wine+Roblox management application"
-HOMEPAGE="https://gitlab.com/brinkervii/grapejuice.git"
+HOMEPAGE="https://gitlab.com/brinkervii/grapejuice"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
@@ -19,10 +19,18 @@ fi
 
 LICENSE="GPL-3"
 SLOT="0"
-RESTRICT="mirror"
 
 DEPEND="dev-libs/gobject-introspection
+		dev-python/click
+		dev-python/packaging
 		dev-python/pip
+		dev-python/psutil
+		dev-python/pydantic
+		dev-python/pygobject
+		dev-python/requests
+		dev-python/setuptools
+		dev-python/unidecode
+		dev-python/wheel
 		dev-util/desktop-file-utils
 		dev-util/gtk-update-icon-cache
 		dev-vcs/git
@@ -32,17 +40,7 @@ DEPEND="dev-libs/gobject-introspection
 		x11-libs/gtk+
 		x11-misc/shared-mime-info
 		x11-misc/xdg-user-dirs
-		x11-misc/xdg-utils
-
-		dev-python/click
-		dev-python/packaging
-		dev-python/psutil
-		dev-python/pydantic
-		dev-python/pygobject
-		dev-python/requests
-		dev-python/setuptools
-		dev-python/unidecode
-		dev-python/wheel"
+		x11-misc/xdg-utils"
 
 RDEPEND="
 		${DEPEND}
@@ -76,8 +74,4 @@ src_install() {
 	mv "${D}/usr/lib/python3/dist-packages" "${D}/usr/lib/python${PYTHON_VERSION}" || die
 	rm -r "${D}/usr/lib/python3" || die
 	default
-}
-
-pkg_postinst() {
-	optfeature "Required for PRIME systems running XOrg, where XRandR based profiling is desired" x11-apps/xrandr
 }

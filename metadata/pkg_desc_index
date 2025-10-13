@@ -1,3 +1,4 @@
 app-vim/vim-ledger 1.2.0 9999: vim plugin: app-office/ledger file format syntax
 games-action/portablemc 4.1.0: An easy-to-use and extensible Python CLI Minecraft launcher with compatability!
+sys-kernel/gentoo-sources 6.6.58-r1: Full sources including the Gentoo patchset for the 6.6 kernel tree
 x11-misc/donut 4: spinning X11 donut
